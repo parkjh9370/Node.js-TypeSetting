@@ -1,0 +1,33 @@
+{
+  "name": "tweeter-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "concurrently \"tsc -w\" \"nodemon dist/app.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkjh9370/Tweeter-Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parkjh9370/Tweeter-Clone/issues"
+  },
+  "homepage": "https://github.com/parkjh9370/Tweeter-Clone#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/morgan": "^1.9.3",
+    "concurrently": "^7.2.1",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^5.1.0",
+    "morgan": "^1.10.0"
+  }
+}
